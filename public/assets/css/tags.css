@@ -1,0 +1,39 @@
+.tags {
+  overflow: hidden;
+  margin: 0 -4px 14px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+}
+
+.tags a,
+.tags span {
+  text-transform: uppercase;
+  display: inline-block;
+  vertical-align: top;
+  border: 1px solid var(--pallete-colors-border);
+  background: #fbfbfb;
+  padding: 4px 10px 3px;
+  font-weight: 400;
+  margin: 0 4px 9px;
+  border-radius: 2px;
+}
+
+.tags a:hover,
+.tags span:hover {
+  color: #fff;
+}
+
+.tags.text-color a,
+.tags.text-color span {
+  color: #cf71a4;
+}
+
+.tags.text-color a:hover,
+.tags.text-color span:hover {
+  color: #fff;
+}

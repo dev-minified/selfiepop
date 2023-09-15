@@ -1,0 +1,1 @@
+type IconType = SVGProps<SVGSVGElement>;

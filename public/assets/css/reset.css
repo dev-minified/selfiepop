@@ -1,0 +1,125 @@
+body {
+  font-weight: 300;
+  min-width: 320px;
+  background-color: var(--pallete-background-default);
+  color: var(--pallete-text-main);
+}
+
+a,
+button,
+input[type='submit'] {
+  -webkit-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+  outline: none;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus,
+button:hover,
+button:focus,
+input[type='submit']:hover,
+input[type='submit']:focus {
+  outline: none;
+}
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+  font-weight: 400;
+  margin-bottom: 7px;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  margin-bottom: 0rem;
+}
+
+.container.sm-container {
+  max-width: 685px;
+}
+
+hr {
+  margin: 25px 0;
+  border-top: 1px solid var(--pallete-colors-border);
+}
+
+hr.dashed {
+  border-style: dashed;
+}
+
+#main {
+  width: 100%;
+  /* overflow: hidden; */
+  position: relative;
+}
+
+@media (max-width: 991px) {
+  h1,
+  .h1 {
+    font-size: 34px;
+  }
+
+  h2,
+  .h2 {
+    font-size: 25px;
+  }
+
+  h3,
+  .h3 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  body {
+    font-weight: 300;
+    font-size: 14px;
+  }
+
+  h1,
+  .h1 {
+    font-size: 28px;
+  }
+
+  h2,
+  .h2 {
+    font-size: 22px;
+  }
+
+  h3,
+  .h3 {
+    font-size: 18px;
+  }
+}
+
+.text-input .icon:before {
+  display: block !important;
+}
+
+.font-weight-medium {
+  font-weight: 500;
+}
+
+.icon-star1:before {
+  color: var(--pallete-primary-main);
+}
+
+.form-control:focus,
+.creditcard .form-control:focus {
+  border-color: var(--pallete-primary-main);
+}

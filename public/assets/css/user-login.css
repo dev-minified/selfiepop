@@ -1,0 +1,156 @@
+.user-login-box .navbar-nav .nav-item + .nav-item {
+  border-left: 1px solid #ddd;
+  margin-left: 17px;
+  padding-left: 16px;
+}
+
+.user-login-box .navbar-nav .nav-item:first-child .nav-link {
+  color: var(--pallete-text-main);
+}
+
+.user-login-box .user-dropdown {
+  display: none;
+}
+
+.user-login-box .user-dropdown .dropdown-toggle {
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.user-login-box .user-dropdown .dropdown-toggle:after {
+  display: none;
+}
+
+.user-login-box .user-dropdown .dropdown-menu {
+  padding: 6px 0;
+  max-height: calc(100vh - 120px);
+  overflow: auto;
+  min-width: 212px;
+}
+
+.user-login-box .user-dropdown .user-name {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0 10px 0 0;
+  color: #fff;
+}
+
+.user-login-box .user-dropdown .user-name em {
+  font-weight: 400;
+  font-style: normal;
+}
+
+.user-login-box .user-dropdown .user-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  overflow: hidden;
+  border: none;
+  position: relative;
+  background: none !important;
+  padding: 4px;
+}
+
+.user-login-box .user-dropdown .user-img:after {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  border: 2px solid var(--pallete-primary-main);
+  content: '';
+  border-radius: 100%;
+  padding: 4px;
+}
+
+.user-login-box .user-dropdown .user-img img {
+  width: 42px;
+  height: 42px;
+  border-radius: 100%;
+}
+
+.user-login-box.user-loggedin {
+  margin: -9px 0;
+}
+
+.user-login-box.user-loggedin .navbar-nav {
+  display: none;
+}
+
+.user-login-box.user-loggedin .user-dropdown {
+  display: block;
+}
+
+@media (max-width: 1023px) {
+  .user-login-box .user-dropdown .user-name {
+    font-size: 15px;
+    margin: 0 5px;
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .user-login-box {
+    -webkit-box-ordinal-group: 2;
+    -ms-flex-order: 1;
+    order: 1;
+    width: 100%;
+  }
+
+  .user-login-box .navbar-nav .nav-item + .nav-item {
+    border: 0;
+    margin-left: 0;
+    padding-left: 0;
+  }
+
+  .user-login-box .user-dropdown {
+    width: 100%;
+    padding: 10px 15px;
+  }
+
+  .user-login-box .user-dropdown .dropdown-toggle {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+  }
+
+  .user-login-box .user-dropdown .dropdown-menu {
+    position: static;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.15);
+    width: 100%;
+    float: none;
+    max-height: inherit;
+  }
+
+  .user-login-box .user-dropdown .user-name {
+    margin: 0;
+    width: 100%;
+    display: block;
+    text-align: center;
+    -webkit-box-ordinal-group: 3;
+    -ms-flex-order: 2;
+    order: 2;
+    color: #fff;
+    font-size: 18px;
+  }
+
+  .user-login-box .user-dropdown .user-img {
+    display: block;
+    -webkit-box-ordinal-group: 2;
+    -ms-flex-order: 1;
+    order: 1;
+  }
+
+  .user-login-box.user-loggedin {
+    margin: 0;
+  }
+}

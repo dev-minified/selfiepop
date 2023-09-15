@@ -1,0 +1,12 @@
+declare module 'canvas-size';
+declare module 'smooth-smooth-scroll-into-view-if-needed';
+declare module 'react-linear-gradient-picker';
+declare module 'react-input-emoji';
+declare module 'react-quill';
+declare module 'react-imgix';
+declare module 'photoswipe/lightbox';
+declare module 'photoswipe';
+declare module 'attr-accept';
+declare module 'photoswipe/dist/photoswipe-lightbox.esm';
+declare module '@analytics/google-analytics-v3';
+declare module '@analytics/google-analytics';

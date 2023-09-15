@@ -1,0 +1,104 @@
+.list-date {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.list-date li {
+  border: 1px solid #d8d8d8;
+  background-color: var(--pallete-background-gray-lighter);
+  padding: 10px 11px;
+  border-radius: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 0 0 6px;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.list-date li:last-child {
+  margin: 0;
+}
+
+.list-date li:hover {
+  background: none;
+}
+
+.list-date .btn {
+  -webkit-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+  font-size: 14px;
+  line-height: 18px;
+  padding: 5px 10px 3px 10px;
+  text-transform: uppercase;
+  border-radius: 20px;
+  min-width: inherit;
+  box-shadow: none;
+}
+
+.list-date .time-wrap {
+  padding: 0;
+}
+
+.list-date .title {
+  margin: 0 10px 0 0;
+  color: #adadad;
+  font-weight: 400;
+}
+
+.list-date .icon {
+  font-size: 30px;
+  line-height: 24px;
+  color: #f17fb5;
+}
+
+@media (max-width: 767px) {
+  .list-date {
+    font-size: 14px;
+  }
+
+  .list-date .btn {
+    font-size: 13px;
+    min-width: inherit;
+  }
+}
+
+@media (max-width: 374px) {
+  .list-date {
+    font-size: 13px;
+    line-height: 17px;
+  }
+
+  .list-date li {
+    padding: 10px 8px;
+  }
+
+  .list-date .btn {
+    font-size: 14px;
+    line-height: 15px;
+    padding: 4px 8px;
+  }
+
+  .list-date .title {
+    margin: 0 5px 0 0;
+  }
+
+  .list-date .icon {
+    font-size: 18px;
+  }
+}

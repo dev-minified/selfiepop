@@ -1,0 +1,280 @@
+.public__layout #public-layout .qa-wedget h2 {
+  margin: 0 10px 0 0;
+}
+
+.public__layout #public-layout .title-box svg:not(.shoutout) g {
+  fill: var(--pallete-text-main);
+}
+
+.public__layout #public-layout .title-box svg.star g#Layer_1 {
+  fill: #fff;
+}
+
+.public__layout #public-layout .title-box {
+  position: relative;
+  justify-content: space-between;
+}
+
+.public__layout #public-layout .title-box .icon {
+  color: var(--pallete-text-main);
+  width: auto;
+  min-width: inherit;
+}
+
+.public__layout #public-layout .title-box .icon svg {
+  width: 50px;
+  height: auto;
+  vertical-align: top;
+}
+
+.public__layout #public-layout .title-box .icon svg #Layer_1 {
+  fill: #fff;
+}
+
+.public__layout #public-layout .title-box .icon svg #Layer_2 {
+  fill: #000;
+}
+
+.sp_dark .public__layout #public-layout .title-box .icon svg #Layer_1 {
+  fill: #000 !important;
+}
+
+.sp_dark .public__layout #public-layout .title-box .icon svg #Layer_2 {
+  fill: #fff;
+}
+
+.public__layout #public-layout .title-box .price {
+  font-size: 26px;
+  line-height: 1.2;
+  font-weight: 400;
+}
+
+.public__layout #public-layout .info-widget {
+  font-size: 17px;
+  color: #666;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.sp_dark .public__layout #public-layout .info-widget {
+  color: #acacac;
+}
+
+.public__layout #public-layout .icon-info {
+  color: var(--pallete-text-main);
+  opacity: 1;
+  font-size: 49px;
+}
+
+.public__layout #public-layout .label {
+  /* background-color: var(--pallete-background-gray-lighter);
+  border-radius: 8px;
+  padding: 20px 30px;
+  margin-bottom: 30px !important; */
+}
+
+.public__layout #public-layout .form-wrap {
+  background-color: var(--pallete-background-gray-lighter);
+  border-radius: 8px;
+  padding: 27px 37px 1px;
+  margin: 0 0 30px;
+}
+
+.public__layout #public-layout .radio.type-primary .label-text:after {
+  border-color: #bcbcbc;
+}
+
+.public__layout #public-layout .radio.type-primary .icon {
+  width: 100%;
+  text-align: center;
+}
+
+.public__layout
+  #public-layout
+  .radio.type-primary
+  [type='radio']:checked
+  ~ .label-text {
+  background: #000;
+  border-color: #000;
+}
+
+.sp_dark
+  .public__layout
+  #public-layout
+  .radio.type-primary
+  [type='radio']:checked
+  ~ .label-text {
+  background: #e51075;
+  border-color: #e51075;
+}
+
+.public__layout
+  #public-layout
+  .radio.type-primary
+  [type='radio']:checked
+  ~ .label-text:after {
+  border-color: #000;
+}
+
+.public__layout #public-layout .radio.type-primary.with-icon .label-text {
+  padding-left: 82px;
+  text-align: left;
+}
+
+.public__layout #public-layout .form-wrap .label {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.public__layout #public-layout .form-wrap .label {
+  background: none;
+}
+
+.sp_dark .public__layout #public-layout .form-wrap .form-control {
+  background: #fff;
+  color: #000;
+}
+
+.sp_light .public__layout #public-layout .button-primary {
+  background: #000;
+}
+
+.public__layout #public-layout .button-primary:hover {
+  opacity: 0.8;
+}
+#public-layout .rightPreview {
+  max-width: 800px;
+}
+
+.public__layout
+  #public-layout
+  .custom-checkbox
+  [type='checkbox']:checked
+  + .custom-input:before {
+  background: #000;
+}
+
+.public__layout
+  #public-layout
+  .custom-checkbox
+  [type='checkbox']:checked
+  ~ .label-text {
+  color: var(--pallete-text-main);
+}
+
+.public__layout #public-layout .info-widget p {
+  font-style: normal;
+}
+
+.public__layout
+  #public-layout
+  .react-select__menu
+  .react-select__option.react-select__option--is-focused,
+.public__layout
+  #public-layout
+  .react-select__menu
+  .react-select__option.react-select__option--is-selected {
+  background: #000;
+}
+
+.sp_dark
+  .public__layout
+  #public-layout
+  .react-select__menu
+  .react-select__option.react-select__option--is-focused,
+.sp_dark
+  .public__layout
+  #public-layout
+  .react-select__menu
+  .react-select__option.react-select__option--is-selected {
+  background: #353535;
+}
+.public__layout .container .course-detail-wrap {
+  width: 850px;
+  margin-left: -100px;
+}
+
+#footer {
+  background: var(--pallete-background-primary-light);
+  z-index: 9;
+}
+
+#footer .footer-bar {
+  background: none;
+}
+
+#footer svg path {
+  /* fill: rgba(0, 0, 0, 0.8) !important; */
+}
+
+#footer .container {
+  align-items: center;
+  max-width: 100%;
+}
+
+#footer .copyrights {
+  margin: 0;
+}
+
+.sp_dark #footer .copyrights {
+  color: #acacac;
+}
+
+.public-logo {
+  width: 143px;
+  margin: 0 auto 20px;
+  position: relative;
+  z-index: 3;
+}
+
+.public-logo svg {
+  width: 100%;
+  height: auto;
+  vertical-align: top;
+}
+
+@media (max-width: 899px) {
+  .public__layout .container .course-detail-wrap {
+    margin-left: 0;
+    width: 100%;
+  }
+}
+
+@media (max-width: 579px) {
+  .public__layout #public-layout .form-wrap {
+    padding: 20px 20px 1px;
+  }
+
+  .public__layout #public-layout .radio-holder .radios-list {
+    flex-wrap: wrap;
+  }
+
+  .public__layout #public-layout .radio-holder > div .mb-15 {
+    width: 100%;
+    margin: 0;
+  }
+
+  .public__layout #public-layout .container.mb-80 {
+    margin-bottom: 40px !important;
+  }
+
+  #footer .container {
+    justify-content: center !important;
+  }
+
+  #footer svg {
+    margin-bottom: 10px;
+  }
+
+  #footer .footer-links {
+    order: 2;
+    width: 100%;
+    justify-content: center;
+  }
+
+  #footer .copyrights {
+    text-align: center;
+    order: 3;
+    width: 100%;
+  }
+}

@@ -1,0 +1,282 @@
+.profile {
+  margin-top: -136px;
+}
+
+.profile--photo {
+  width: 260px;
+  height: 260px;
+  /* overflow: hidden; */
+  border-radius: 100%;
+  /* border: 4px solid #fff; */
+  margin: 0 auto;
+  position: relative;
+  box-shadow: 0 4px 46px rgba(0, 0, 0, 0.14);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile--photo svg {
+  height: auto;
+}
+
+.profile--photo:before {
+  border: 4px solid white;
+  position: absolute;
+  left: -4px;
+  right: -4px;
+  top: -4px;
+  bottom: -4px;
+  content: '';
+  border-radius: 100%;
+}
+
+.profile--photo img {
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  object-fit: cover;
+}
+
+.profile--photo.style-edit {
+  position: relative;
+}
+
+.profile--photo.style-edit:before {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  content: '';
+  border-radius: 100%;
+  background: rgba(255, 255, 255, 0.5);
+  opacity: 0;
+  vertical-align: inherit;
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
+
+.profile--photo.style-edit:after {
+  top: 5px;
+  left: 5px;
+  right: 5px;
+  bottom: 5px;
+  position: absolute;
+  content: '';
+  border: 2px dashed #fff;
+  border-radius: 100%;
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
+
+.profile--photo.style-edit:hover {
+  cursor: pointer;
+}
+
+.profile--photo.style-edit:hover:before {
+  opacity: 1;
+  visibility: visible;
+}
+
+.profile--photo.style-edit:hover:after {
+  border-color: #000;
+}
+
+.profile .btn-edit {
+  width: 40px;
+  height: 40px;
+  background: var(--pallete-background-default);
+  border: 1px solid #fff;
+  position: absolute;
+  right: 20px;
+  bottom: 10px;
+  border-radius: 100%;
+}
+
+.profile .btn-edit img {
+  width: 20px;
+  height: auto;
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-57%, -50%);
+  transition: all 0.25s ease;
+  border-radius: 0px;
+}
+
+.profile .btn-edit img.white {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.profile .btn-edit:hover img.white {
+  opacity: 1;
+  visibility: visible;
+}
+
+.profile-photo {
+  max-width: 245px;
+  margin: 0 auto 15px;
+  text-align: center;
+}
+
+.profile-photo .photo-wrap {
+  width: 192px;
+  height: 192px;
+  margin: 0 auto 40px;
+  border-radius: 100%;
+  border: 2px dashed rgba(230, 28, 124, 0.3);
+  position: relative;
+  box-shadow: 0 4px 35px rgba(0, 0, 0, 0.03);
+}
+
+.profile-photo .photo-box {
+  width: 188px;
+  height: 188px;
+  background-color: var(--pallete-background-gray-darker);
+  border: 5px solid #fff;
+  border-radius: 100%;
+  overflow: hidden;
+}
+
+.profile-photo .photo-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: 100%;
+}
+
+.profile-photo .btn-add {
+  width: 30px;
+  height: 30px;
+  font-size: 14px;
+  color: #fff;
+  position: absolute;
+  right: 15px;
+  bottom: 10px;
+  border-radius: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.profile-photo .btn-add:hover {
+  background: #000;
+  color: #fff;
+}
+
+.profile-photo .button-fileupload {
+  padding: 13px 12px 11px;
+  margin: 0 0 30px;
+}
+
+.profile-photo .link-skip {
+  font-weight: 400;
+  text-decoration: underline;
+}
+
+.profile-photo .link-skip:hover {
+  text-decoration: none;
+}
+
+.profile-photo .btn.btn-primary {
+  margin: 0 auto 30px;
+  max-width: 168px;
+}
+
+.profile-photo .replace-img {
+  color: var(--pallete-text-main);
+  text-decoration: underline;
+  cursor: pointer;
+  font-weight: 400;
+}
+
+.profile-photo .replace-img input[type='file'] {
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+}
+
+.profile-photo .replace-img:hover {
+  text-decoration: none;
+}
+
+.profile-photo .btn.btn-primary,
+.profile-photo .replace-img {
+  display: none;
+}
+
+.profile-photo.uploaded .btn-add,
+.profile-photo.uploaded .button-fileupload,
+.profile-photo.uploaded .link-skip {
+  display: none;
+}
+
+.profile-photo.uploaded .btn.btn-primary,
+.profile-photo.uploaded .replace-img {
+  display: block;
+}
+
+#public-landing {
+  margin: 0 0 60px;
+}
+
+#public-landing h3 {
+  margin: 25px 0 17px;
+}
+
+#public-landing #service-listing > h3:first-child {
+  margin-top: 23px;
+}
+
+@media (max-width: 991px) {
+  .profile {
+    margin-top: -90px;
+  }
+
+  .profile--photo {
+    width: 180px;
+    height: 180px;
+  }
+
+  .profile .btn-edit {
+    right: 10px;
+    bottom: 5px;
+  }
+}
+
+@media (max-width: 767px) {
+  .profile {
+    margin-top: -60px;
+  }
+
+  .profile--photo {
+    width: 120px;
+    height: 120px;
+    margin-bottom: 0;
+  }
+
+  .profile--info .no-margin h1,
+  .profile--info .no-margin h3,
+  .profile--info .no-margin p {
+    margin: 0;
+  }
+
+  .profile .btn-edit {
+    right: -5px;
+    bottom: -5px;
+  }
+
+  #public-landing {
+    margin: 0 0 60px;
+  }
+}

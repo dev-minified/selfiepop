@@ -1,0 +1,75 @@
+{
+  "root": true,
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaVersion": 2017,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true,
+      "tsx": true
+    }
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
+  "env": {
+    "browser": true,
+    "amd": true,
+    "node": true
+  },
+  "plugins": ["react", "prettier", "react-hooks"],
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:jsx-a11y/recommended",
+    "plugin:prettier/recommended" // Make sure this is always the last element in the array.
+  ],
+  "rules": {
+    "prettier/prettier": ["warn", {}, { "usePrettierrc": true }],
+    "no-console": ["off"],
+    "no-debugger": ["error"],
+    "react/react-in-jsx-scope": "off",
+    "react/prop-types": "off",
+    "no-unsafe-optional-chaining": "off",
+    // "@typescript-eslint/explicit-function-return-type": "off",
+    "@typescript-eslint/explicit-module-boundary-types": "off",
+    "@typescript-eslint/no-empty-interface": "off",
+    // "import/no-anonymous-default-export": "off",
+    // "@typescript-eslint/no-var-requires": "off",
+    "jsx-a11y/no-static-element-interactions": "off",
+    "jsx-a11y/click-events-have-key-events": "off",
+    "@typescript-eslint/ban-types": "off",
+    // "axe/parsing": "off",
+    // "no-inline-styles": "off",
+    "@typescript-eslint/no-explicit-any": "off",
+    // "@typescript-eslint/no-unused-vars": "error",
+    "@typescript-eslint/no-non-null-assertion": "off",
+    "no-case-declarations": "off",
+    "jsx-a11y/media-has-caption": "off",
+    "react/no-unescaped-entities": "off",
+    "react/display-name": "off",
+    "no-irregular-whitespace": "off",
+    "no-empty": "off",
+    "@typescript-eslint/no-non-null-asserted-optional-chain": "off",
+    // "no-useless-escape": "off",
+    "jsx-a11y/label-has-associated-control": "off",
+    "jsx-a11y/no-noninteractive-element-interactions": "off",
+    "@typescript-eslint/no-empty-function": "off",
+    "jsx-a11y/mouse-events-have-key-events": "off",
+    "no-extra-boolean-cast": "off",
+    "jsx-a11y/anchor-is-valid": "off"
+    // "react/no-unknown-property": "off"
+    // "jsx-a11y/anchor-is-valid": [
+    //     "error",
+    //     {
+    //         components: ["Link"],
+    //         specialLink: ["hrefLeft", "hrefRight"],
+    //         aspects: ["invalidHref", "preferButton"],
+    //     },
+    // ],
+  }
+}

@@ -1,0 +1,243 @@
+.color-picker {
+  overflow: hidden;
+}
+
+.cycle-gallery {
+  margin: 0 0 50px;
+}
+
+.dragabe-widget {
+  position: relative;
+}
+
+.copyrights {
+  margin: 0;
+}
+
+.text-overflow {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  direction: rtl;
+  text-align: left;
+}
+
+.bg-white::before,
+.bg-white::after {
+  background: none !important;
+  border-color: transparent transparent transparent transparent !important;
+}
+
+.price-tag {
+  background: #e51075;
+  padding: 8px 20px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.number--tag {
+  width: 25px;
+  height: 25px;
+  border-radius: 100%;
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+  background: var(--pallete-background-default);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  position: relative;
+  background: #e51075;
+  margin: 0px 6px;
+  z-index: 1;
+}
+
+.br-round {
+  border-radius: 35px !important;
+}
+
+.icon--round {
+  font-size: 20px;
+  line-height: 1;
+  color: #e51075;
+  width: 26px;
+  height: 26px;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background: var(--pallete-background-default);
+  border-radius: 100%;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  z-index: 1;
+}
+
+.fw-400 {
+  font-weight: 400;
+}
+
+.custom-width {
+  min-width: 130px !important;
+  font-weight: 300 !important;
+}
+
+.custom-min-width {
+  min-width: 215px !important;
+  font-weight: 300 !important;
+}
+
+.selectable:hover {
+  background: #e51075 !important;
+  border-color: #e51075 !important;
+  color: #fff !important;
+  cursor: pointer !important;
+}
+
+.custom-input-style {
+  height: unset;
+  font-size: 14px !important;
+}
+
+.br-gray {
+  border: 1px solid #adaaaa !important;
+}
+
+.p-custom {
+  padding: 9px 20px !important;
+}
+
+.custom-border {
+  border: 1px solid var(--colors-darkGrey-300) 38;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.skip-link {
+  color: #00000078;
+  font-weight: 400;
+}
+
+.img-icon {
+  border-radius: 100px;
+}
+
+.fw-300 {
+  font-weight: 300 !important;
+}
+
+.tagsTooltip {
+  font-size: 14px;
+  line-height: 16px;
+  top: 10px;
+  opacity: 0.7;
+}
+
+/* customizing ant input auto complete */
+.customAutoComplete input {
+  height: 58px !important;
+  width: 100%;
+  padding-left: 20px;
+  padding-top: 17px;
+  border: none;
+}
+
+.content_component {
+  float: left;
+  width: 100%;
+}
+
+.special-btn {
+  width: 100%;
+  font-size: 26px;
+  height: 65px;
+}
+
+.special-btn .loader-circule {
+  height: 30px;
+  width: 30px;
+  margin: -12px 0px;
+}
+
+.dots-area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 0 23px 0 0;
+  min-height: 53px;
+  min-width: 53px;
+}
+
+.dots-area__dot {
+  margin: 0 4px 0 0;
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+}
+
+.orders--text {
+  max-width: calc(100% - 130px);
+}
+
+.orders-numbers {
+  display: inline-block;
+  vertical-align: middle;
+  background: #7ccf78;
+  color: #fff;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 500;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  text-align: center;
+  margin: 0 5px;
+  padding: 2px 0 0;
+}
+
+.user-dropdown .icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.user-dropdown .icon svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.__add .btn:hover .icon-dollar {
+  color: var(--pallete-text-main);
+}
+
+@media (max-width: 767px) {
+  .copyrights {
+    margin: 0 0 10px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .img-icon {
+    height: 40px;
+  }
+}

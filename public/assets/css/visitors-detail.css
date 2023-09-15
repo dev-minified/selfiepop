@@ -1,0 +1,33 @@
+.visitors-details {
+  position: relative;
+  border: 1px solid var(--pallete-colors-border);
+  border-radius: 30px;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  /* border-right: 1px solid #e0dee1; */
+  align-items: center;
+}
+
+.visitors-info {
+  width: 50%;
+  padding: 5px 10px;
+}
+
+.visitors-num {
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 500;
+}
+
+@media (max-width: 640px) {
+  .visitors-details {
+    display: block;
+    border-radius: 40px;
+  }
+
+  .visitors-info {
+    width: 100%;
+    padding: 8px 10px;
+  }
+}

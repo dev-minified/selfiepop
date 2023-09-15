@@ -1,0 +1,92 @@
+.section-title {
+  display: block;
+  padding: 10px 0 25px;
+}
+
+.section-head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 10px 0 25px;
+}
+
+.section-head .section-title {
+  padding: 0;
+}
+
+.section-head .edit-btn {
+  border-radius: 5px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border: 1px solid var(--pallete-colors-border);
+  padding: 9px 15px 9px 10px;
+
+  color: var(--pallete-text-main-250);
+  font-weight: 700;
+  text-transform: uppercase;
+  min-width: 95px;
+}
+
+.section-head .edit-btn .icon {
+  width: 20px;
+  position: relative;
+  margin: 0 12px 0 0;
+}
+
+.section-head .edit-btn .icon img {
+  display: block;
+  width: 100%;
+  height: auto;
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
+
+.section-head .edit-btn .icon img.white {
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.section-head .edit-btn:hover {
+  color: #fff;
+}
+
+.section-head .edit-btn:hover .icon img {
+  opacity: 0;
+}
+
+.section-head .edit-btn:hover .icon img.white {
+  opacity: 1;
+  visibility: visible;
+}
+
+@media (max-width: 767px) {
+  .section-head .edit-btn {
+    font-size: 14px;
+    padding: 6px 15px 7px 10px;
+  }
+
+  .section-head .edit-btn .icon {
+    width: 18px;
+  }
+
+  .section-title {
+    margin: 0;
+    padding: 5px 0 12px;
+  }
+}

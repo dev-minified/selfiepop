@@ -1,0 +1,384 @@
+@font-face {
+  font-family: 'CerebriSans';
+  src: url('../fonts/CerebriSans-Regular.woff') format('woff'),
+    url('../fonts/CerebriSans-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CerebriSans';
+  src: url('../fonts/CerebriSans-Medium.woff') format('woff'),
+    url('../fonts/CerebriSans-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CerebriSans';
+  src: url('../fonts/CerebriSans-Bold.woff') format('woff'),
+    url('../fonts/CerebriSans-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'icomoon';
+  src: url('../fonts/icomoon.woff') format('woff'),
+    url('../fonts/icomoon.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^='icon-'],
+[class*=' icon-'] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-check:before {
+  content: '\e942';
+}
+
+.icon-share-square-o:before {
+  content: '\e903';
+}
+
+.icon-dollar:before {
+  content: '\e93e';
+}
+
+.icon-comments:before {
+  content: '\f086';
+}
+
+.icon-twitch:before {
+  content: '\f1e8';
+}
+
+.icon-envelope:before {
+  content: '\e941';
+}
+
+.icon-mail:before {
+  content: '\e941';
+}
+
+.icon-email:before {
+  content: '\e941';
+}
+
+.icon-contact:before {
+  content: '\e941';
+}
+
+.icon-volume:before {
+  content: '\e936';
+}
+
+.icon-pause:before {
+  content: '\e931';
+}
+
+.icon-facebook:before {
+  content: '\ea90';
+}
+
+.icon-instagram:before {
+  content: '\ea92';
+}
+
+.icon-twitter:before {
+  content: '\ea96';
+}
+
+.icon-youtube:before {
+  content: '\ea9d';
+}
+
+.icon-pencil1:before {
+  content: '\e920';
+}
+
+.icon-arrow-right2:before {
+  content: '\ea3c';
+}
+
+.icon-tick:before {
+  content: '\e93a';
+}
+
+.icon-schedule:before {
+  content: '\e930';
+}
+
+.icon-box:before {
+  content: '\e92f';
+}
+
+.icon-tag-star:before {
+  content: '\e924';
+}
+
+.icon-billings:before {
+  content: '\e925';
+}
+
+.icon-bullet-list:before {
+  content: '\e926';
+}
+
+.icon-card:before {
+  content: '\e927';
+}
+
+.icon-dollar1:before {
+  content: '\e928';
+}
+
+.icon-dollar-setting:before {
+  content: '\e929';
+}
+
+.icon-help:before {
+  content: '\e92a';
+}
+
+.icon-live:before {
+  content: '\e92b';
+}
+
+.icon-sales:before {
+  content: '\e92c';
+}
+
+.icon-settings:before {
+  content: '\e92d';
+}
+
+.icon-tiktok:before {
+  content: '\e923';
+}
+
+.icon-list:before {
+  content: '\e912';
+}
+
+.icon-list1:before {
+  content: '\e913';
+}
+
+.icon-search:before {
+  content: '\e90b';
+}
+
+.icon-close:before {
+  content: '\e91b';
+}
+
+.icon-url:before {
+  content: '\e922';
+}
+
+.icon-star-new:before {
+  content: '\e935';
+}
+
+.icon-refresh:before {
+  content: '\e937';
+}
+
+.icon-refresh1:before {
+  content: '\e938';
+}
+
+.icon-support:before {
+  content: '\e93b';
+}
+
+.icon-orders:before {
+  content: '\e93c';
+}
+
+.icon-support1:before {
+  content: '\e93d';
+}
+
+.icon-orders1:before {
+  content: '\e93f';
+}
+
+.icon-trashcan1:before {
+  content: '\e921';
+}
+
+.icon-phone:before {
+  content: '\e940';
+}
+
+.icon-cellular:before {
+  content: '\e940';
+}
+
+.icon-setting-dollar .path1:before {
+  content: '\e90e';
+  color: var(--pallete-text-main);
+}
+
+.icon-setting-dollar .path2:before {
+  content: '\e90f';
+  margin-left: -1em;
+  color: white;
+}
+
+.icon-setting-dollar .path3:before {
+  content: '\e910';
+  margin-left: -1em;
+  color: var(--pallete-text-main);
+}
+
+.icon-setting-dollar .path4:before {
+  content: '\e911';
+  margin-left: -1em;
+  color: white;
+}
+
+.icon-star1:before {
+  content: '\e914';
+}
+
+.inactive .icon-star1:before {
+  color: #6a6969 !important;
+}
+
+.icon-credit-card:before {
+  content: '\e915';
+}
+
+.icon-envelope1:before {
+  content: '\e916';
+}
+
+.icon-person:before {
+  content: '\e917';
+}
+
+.icon-plus:before {
+  content: '\e918';
+}
+
+.icon-link:before {
+  content: '\e9cb';
+}
+
+.icon-question:before {
+  content: '\e919';
+}
+
+.icon-question-circle:before {
+  content: '\e91a';
+}
+
+.icon-info:before {
+  content: '\e902';
+}
+
+.icon-global:before {
+  content: '\e052';
+}
+
+.icon-trashcan:before {
+  content: '\e91d';
+}
+
+.icon-comments1:before {
+  content: '\e90c';
+}
+
+.icon-pencil:before {
+  content: '\e91e';
+}
+
+.icon-time:before {
+  content: '\e92e';
+}
+
+.icon-arrow_right:before {
+  content: '\e934';
+}
+
+.icon-star:before {
+  content: '\e904';
+}
+
+.icon-heart:before {
+  content: '\e905';
+}
+
+.icon-keyboard_arrow_up:before {
+  content: '\e906';
+}
+
+.icon-keyboard_arrow_right:before {
+  padding-left: 1px;
+  content: '\e907';
+}
+
+.icon-keyboard_arrow_left:before {
+  padding-right: 1px;
+  content: '\e908';
+}
+
+.icon-keyboard_arrow_down:before {
+  content: '\e909';
+}
+
+.icon-clearclose:before {
+  content: '\e91c';
+}
+
+.icon-refresh11:before {
+  content: '\e939';
+}
+
+.icon-download:before {
+  content: '\e933';
+}
+
+.icon-arrow-thin-up:before {
+  content: '\e90a';
+}
+
+.icon-attachment:before {
+  content: '\e900';
+}
+
+.icon-pinterest:before {
+  content: '\e901';
+}
+
+.icon-edit-pencil:before {
+  content: '\e91f';
+}
+
+.icon-network:before {
+  content: '\e90d';
+}
+
+.icon-reply:before {
+  content: '\e932';
+}
+
+.icon-upload:before {
+  content: '\e943';
+}

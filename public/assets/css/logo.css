@@ -1,0 +1,22 @@
+.logo {
+  width: 141px;
+  display: block;
+  margin: -4px 27px 0 0;
+}
+
+.logo a {
+  display: block;
+}
+
+.logo img,
+.logo svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 767px) {
+  .logo {
+    width: 100px;
+  }
+}

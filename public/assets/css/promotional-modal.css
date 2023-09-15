@@ -1,0 +1,190 @@
+.price-variation-form .modal-body,
+.Question-from .modal-body {
+  max-height: calc(100vh - 200px);
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.price-variation-form .title-icon,
+.Question-from .title-icon {
+  margin: 0 10px 0 0;
+}
+
+.price-variation-form .title-icon path,
+.Question-from .title-icon path {
+  fill: #000;
+}
+.price-variation-form .title-icon.newPricepromotion svg {
+  width: 30px;
+  height: 30px;
+}
+.price-variation-form .title-icon.newPricepromotion path {
+  fill: rgb(219, 121, 219);
+}
+
+.Question-from.question_form_open .modal-body {
+  min-height: 220px;
+}
+
+.price-variation-form .actions-area {
+  display: flex;
+}
+
+.price-variation-form .actions-area .button {
+  flex-grow: 1;
+  flex-basis: 0;
+}
+
+.price-variation-form .actions-area .default {
+  width: 100%;
+  margin: 0 0 0 10px;
+}
+
+.price-variation-form .actions-area .default .react-select__menu {
+  top: auto !important;
+  bottom: 100% !important;
+}
+
+.price-variation-form .sortable {
+  margin: 10px 0 0;
+}
+
+.add-social-account-modal p {
+  margin: 0 0 10px;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+}
+
+.price-variation-form
+  .react-select__value-container
+  .react-select__single-value {
+  width: 100%;
+  padding: 0 0 0 6px;
+}
+
+.price-variation-form .react-select__value-container .label {
+  flex-grow: 1;
+  flex-basis: 0;
+  min-width: 0;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  padding: 0 5px 0 0;
+}
+
+.price-variation-form .card-dragable {
+  background: #fff !important;
+}
+.price-variation-form .card-dragable:after {
+  border-color: #e6ebf5 !important;
+}
+.price-variation-form .card-dragable .icon {
+  border-color: #e6ebf5 !important;
+}
+.price-variation-form .card-dragable.inactive:hover {
+  color: rgba(0, 0, 0, 0.47) !important;
+}
+.price-variation-form .rc-card-header .rc-card-title {
+  color: #000 !important;
+}
+
+.price-variation-form .button-default.button-outline {
+  border-color: #e6ebf5 !important;
+  color: #a3a0a0 !important;
+}
+
+@media (max-width: 767px) {
+  .price-variation-form .actions-area {
+    flex-wrap: wrap;
+  }
+
+  .price-variation-form .actions-area .default {
+    margin: 10px 0 0;
+  }
+}
+
+.gallery-modal {
+  max-width: 510px;
+}
+
+.gallery-modal .gallery-modal {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 500;
+  color: #252631;
+}
+
+.gallery-modal .modal-header {
+  border-bottom-color: #edf1f3;
+  padding: 13px 19px;
+}
+
+.gallery-modal .modal-title {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.gallery-modal .modal-title svg {
+  margin: 0 15px 0 0;
+}
+
+.gallery-modal .modal-body {
+  padding: 0;
+}
+
+.gallery-modal .img-container {
+  width: calc(33.333% - 6px);
+  padding-top: 0;
+  height: 161px;
+}
+
+.gallery-modal .library-attachments {
+  height: calc(100vh - 170px);
+  overflow: auto;
+  padding: 4px 0;
+}
+
+.gallery-modal .checkbox {
+  position: absolute;
+  right: 9px;
+  top: 7px;
+}
+
+.gallery-modal .checkbox label {
+  padding: 0;
+}
+
+.gallery-modal .checkbox .custom-input {
+  margin: 0;
+  width: 24px;
+  height: 24px;
+  border: 2px solid rgba(255, 255, 255, 0.8);
+  border-radius: 100%;
+}
+.gallery-modal .checkbox .custom-input:after {
+  display: none;
+}
+
+.gallery-modal .checkbox .custom-input:before {
+  color: #fff !important;
+  font-size: 9px;
+}
+.gallery-modal
+  .checkbox
+  input[type='checkbox']:checked
+  + .custom-input-holder
+  .custom-input {
+  background: var(--pallete-primary-main);
+  border-color: var(--pallete-primary-main);
+}
+
+.attachment-library-footer {
+  text-align: right;
+  padding: 10px 20px;
+}
+
+.attachment-library-footer .button {
+  color: #1da1f3;
+  font-size: 16px;
+  min-width: 100px !important;
+}

@@ -1,0 +1,94 @@
+.delete-popup {
+  width: 378px;
+  text-align: left;
+  border: 2px solid #f0f2f6;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.03);
+  border-radius: 8px;
+  padding: 20px 23px;
+  font-size: 16px;
+  line-height: 22px;
+  color: #495057;
+  font-weight: 400;
+}
+
+.delete-popup .swal-content {
+  padding: 0;
+  margin: 0;
+}
+
+.delete-popup h2 {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 500;
+  position: relative;
+  padding: 0 0 0 35px;
+  margin: 0 0 10px;
+}
+
+.delete-popup h2 img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 20px;
+  height: auto;
+}
+
+.delete-popup p {
+  margin: 0 0 30px;
+}
+
+.delete-popup .swal-footer {
+  padding: 0 15px 0 0;
+  margin: 0;
+}
+
+.delete-popup .swal-button-container {
+  margin: 0 0 0 40px;
+}
+
+.delete-popup .swal-button-container .swal-button {
+  background: none;
+  padding: 0;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 500;
+  color: #1da1f3;
+  text-transform: uppercase;
+  border: none !important;
+  box-shadow: none !important;
+}
+.delete-popup .swal-button-container .swal-button:hover {
+  color: #9fa8da;
+}
+
+.modal-header .title-text {
+  font-weight: 500;
+  color: rgba(37, 38, 49, 1);
+}
+
+.modal-body {
+  font-weight: 400;
+}
+
+@media (max-width: 479px) {
+  .delete-popup {
+    width: 320px;
+  }
+}
+
+@media (max-width: 370px) {
+  .delete-popup {
+    padding: 15px;
+    width: 290px;
+    font-size: 15px;
+  }
+
+  .delete-popup h2 {
+    font-size: 15px;
+    padding: 0 0 0 30px;
+  }
+
+  .delete-popup .swal-button-container {
+    margin: 0 0 0 20px;
+  }
+}

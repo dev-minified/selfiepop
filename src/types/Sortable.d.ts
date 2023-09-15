@@ -1,0 +1,30 @@
+type Ilink = {
+  popType: string;
+  isActive?: any;
+  _id: string;
+  url: string;
+  price: number;
+  title: string;
+  imageURL?: string | null;
+  popThumbnail?: string | null;
+  linkType?: string | null;
+  popLinksId: IPop;
+  sortOrder?: number;
+  isTemp?: boolean;
+};
+type ISortableItem = {
+  link: Ilink;
+  edit: number | undefined;
+  setEdit: Function;
+  Actions?: any;
+  onDelete?: (id: number) => void;
+  sn?: number;
+  user?: any;
+  className?: string;
+  inlineForm?: boolean;
+  showDeleteIcon?: boolean;
+  TempLink?: boolean;
+  showActiveToggle?: boolean;
+  showEditIcon?: boolean;
+  showAddPopIcon?: boolean;
+};

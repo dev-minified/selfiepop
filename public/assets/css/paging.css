@@ -1,0 +1,64 @@
+.paging {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-size: 14px;
+  line-height: 21px;
+  margin: 0 0 14px;
+}
+
+.paging li {
+  padding: 0 3px;
+}
+
+.paging li:first-child a,
+.paging li:first-child span {
+  border-radius: 4px 0 0 4px;
+  cursor: pointer;
+}
+
+.paging li:first-child a:hover,
+.paging li:first-child span:hover {
+  color: #fff;
+  background: #000;
+  border-color: #000;
+}
+
+.paging li:last-child a,
+.paging li:last-child span {
+  border-radius: 0 4px 4px 0;
+}
+
+.paging li:last-child a:hover,
+.paging li:last-child span:hover {
+  color: #fff;
+  background: #000;
+  border-color: #000;
+}
+
+.paging li a,
+.paging li span {
+  color: #747474;
+  padding: 6px 13px;
+  border: 1px solid var(--pallete-colors-border);
+  display: block;
+}
+
+.paging li a:hover,
+.paging li span:hover {
+  color: #fff;
+}
+
+.paging li.active a,
+.paging li.active span {
+  color: #fff;
+}

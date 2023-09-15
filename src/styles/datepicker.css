@@ -1,0 +1,50 @@
+.ending-date,
+.starting-date {
+  position: relative;
+}
+
+.ending-date .react-datepicker-popper,
+.starting-date .react-datepicker-popper {
+  left: 50% !important;
+  margin-left: -121px;
+}
+
+.starting-date .react-datepicker__triangle,
+.ending-date .react-datepicker__triangle {
+  left: 50% !important;
+  margin-left: -10px;
+}
+
+@media (max-width: 767px) {
+  .ending-date .react-datepicker-popper {
+    margin-left: -161px;
+  }
+
+  .ending-date .react-datepicker__triangle {
+    margin-left: 6px !important;
+  }
+}
+
+@media (max-width: 640px) {
+  .ending-date .react-datepicker-popper {
+    margin-left: -121px;
+  }
+
+  .ending-date .react-datepicker__triangle {
+    margin-left: -8px !important;
+  }
+}
+
+@media (max-width: 420px) {
+  .starting-date .react-datepicker-popper {
+    margin-left: -100px;
+  }
+
+  .ending-date .react-datepicker-popper {
+    margin-left: -161px;
+  }
+
+  .ending-date .react-datepicker__triangle {
+    margin-left: 20px !important;
+  }
+}

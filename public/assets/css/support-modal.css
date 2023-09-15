@@ -1,0 +1,103 @@
+.support-modal {
+  font-size: 15px;
+  line-height: 18px;
+  color: #67616d;
+}
+
+.support-modal .modal-dialog {
+  max-width: 600px;
+}
+
+.support-modal .modal-content {
+  padding: 26px 35px;
+  border-radius: 12px;
+}
+
+.support-modal .modal-header {
+  padding: 0;
+  border: none;
+}
+
+.support-modal .modal-body {
+  padding: 0;
+}
+
+.support-modal .modal-title {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  color: #000;
+  margin: 0 0 6px;
+}
+
+.support-modal h3 {
+  font-size: 18px;
+  line-height: 22px;
+  color: #000;
+  margin: 25px 0 7px;
+}
+
+.support-modal .close {
+  position: absolute;
+  right: 18px;
+  top: 17px;
+  width: 20px;
+  height: 20px;
+  background: rgba(0, 0, 0, 0.66);
+  color: #fff;
+  border-radius: 100%;
+  padding: 0;
+  font-size: 18px;
+  line-height: 1;
+  font-weight: 400;
+  opacity: 1;
+  margin: 0;
+  z-index: 2;
+}
+
+.support-modal .close:hover {
+  background: rgba(0, 0, 0, 1);
+}
+
+.modal-submit {
+  font-size: 18px;
+  line-height: 24px;
+  color: #67616d;
+  padding: 5px 0 0;
+}
+
+.modal-submit h2 {
+  font-size: 28px;
+  line-height: 32px;
+  color: #000;
+  margin: 0 0 10px;
+}
+
+.modal-submit p {
+  margin: 0;
+}
+
+.modal-submit .btn-holder {
+  padding: 15px 0 0;
+}
+
+.modal-submit .btn-holder .button {
+  max-width: 102px;
+  min-width: inherit;
+  margin: 0 auto;
+}
+
+/*.preview-modal .modal-body {
+  max-height: calc(100vh - 120px);
+  overflow: auto;
+}*/
+
+@media (max-width: 600px) {
+  .support-modal .modal-content {
+    padding: 20px;
+  }
+
+  .modal-submit {
+    font-size: 16px;
+  }
+}

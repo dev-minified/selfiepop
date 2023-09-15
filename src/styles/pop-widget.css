@@ -1,0 +1,210 @@
+.pop-wigdet {
+  background-color: #f6f6f6;
+  border: 1px solid var(--pallete-colors-border);
+  border-radius: 10px;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.pop-wigdet.pop-digital-download .header .icon {
+  background: none;
+}
+
+.pop-top-content {
+  border-bottom: none;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.pop-wigdet .header {
+  flex-grow: 1;
+  flex-basis: 0;
+  position: relative;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid var(--pallete-colors-border);
+  padding: 20px;
+  background: var(--pallete-background-default);
+}
+
+.pop-wigdet .title {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.pop-wigdet .caption {
+  font-weight: 400;
+  color: #3f3f3f;
+}
+
+.pop-wigdet .header .icon {
+  width: 52px;
+  height: 52px;
+  min-width: 52px;
+  border-radius: 100%;
+  font-size: 19px;
+  font-weight: 700;
+  color: #fff;
+  background: var(--pallete-background-default);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 18px 0 0;
+  position: relative;
+  z-index: 1;
+}
+
+.pop-wigdet.pop-additional-services .header .icon {
+  background: none;
+}
+
+.pop-wigdet.pop-additional-services .addition__art .icon {
+  background: none !important;
+}
+
+.pop-wigdet .header .header-right {
+  flex-grow: 1;
+  flex-basis: 0;
+}
+
+.pop-wigdet .header .btn-close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  height: 24px;
+  width: 24px;
+  background-color: #a3a6a8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  color: white;
+  transition: all 0.4s ease;
+  cursor: pointer;
+}
+
+.pop-wigdet .header .btn-close:hover {
+  background: #000;
+}
+
+.pop-wigdet .header .btn-close .icon-clearclose:before {
+  font-weight: 900;
+}
+
+.pop-wigdet .header .icon-star1:before {
+  color: white;
+}
+
+.pop-wigdet .form-field,
+.pop-wigdet .lower-from {
+  border-bottom: 1px solid var(--pallete-colors-border);
+  padding: 20px;
+}
+
+.pop-wigdet .lower-from .btn {
+  flex-grow: 1;
+  flex-basis: 0;
+}
+
+/* .pop-wigdet .form .toggle-widget {
+  background-color: var(--pallete-background-default);
+} */
+
+.pop-wigdet .custom-thumb-pop {
+  border: none;
+}
+
+.price--variation .__add .btn {
+  flex-grow: 1;
+  flex-basis: 0;
+}
+
+.price--variation .social-ad-header {
+  margin: -20px -40px 20px;
+  padding: 30px 40px;
+  background: var(--pallete-background-default);
+  border-bottom: 1px solid #e8e8e8;
+}
+
+@media (max-width: 767px) {
+  .price--variation .social-ad-header {
+    padding: 20px 40px;
+  }
+}
+
+.pop-wigdet .addition__art .fileupload-toolbar.gray-bar {
+  background-color: var(--pallete-background-default);
+  border: 1px solid #c7c7c7;
+}
+
+.pop-wigdet .addition__art .btn.btn-round {
+  border-color: #f2f2f2;
+}
+
+.pop-wigdet .addition__art .status {
+  color: var(--pallete-text-main);
+  font-weight: 400;
+  word-break: break-all;
+}
+
+.pop-wigdet .addition__art .btn.btn-primary {
+  flex-grow: 1;
+  flex-basis: 0;
+}
+
+.pop-wigdet .price--variation .form .icon-star1::before {
+  color: #6a6969;
+}
+
+.pop-wigdet .addition__art .fileupload-toolbar .buttons {
+  display: flex;
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pop-wigdet .price--variation .__add .variation-card-from .status {
+  display: none;
+}
+
+.pop-wigdet .btn.btn-primary .icon {
+  background: var(--pallete-background-default);
+  width: 24px;
+  height: 24px;
+  border-radius: 100%;
+  display: inline-block;
+  vertical-align: top;
+  color: #f7a278;
+  transition: all 0.4s ease;
+}
+
+.pop-wigdet .btn.btn-primary .icon:before {
+  font-size: 14px;
+  line-height: 24px;
+}
+
+@media (max-width: 767px) {
+  .pop-wigdet .header {
+    padding: 10px;
+  }
+
+  .pop-wigdet .form-field,
+  .pop-wigdet .lower-from {
+    padding: 20px 10px;
+  }
+
+  .pop-wigdet .header .icon {
+    background: var(--pallete-background-default);
+  }
+
+  .pop-wigdet .header .btn-close {
+    top: 16px;
+  }
+}
+
+@media (max-width: 420px) {
+  .pop-wigdet .addition__art .status {
+    position: relative;
+    padding: 0 0 0 20px;
+  }
+}

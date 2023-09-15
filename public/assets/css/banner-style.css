@@ -1,0 +1,77 @@
+.visual--image {
+  height: 190px;
+}
+
+.profile.default-image {
+  margin-top: -80px;
+}
+
+.profile.below-image {
+  margin-top: 30px;
+}
+
+.profile.default-image .profile--photo {
+  width: 160px;
+  height: 160px;
+}
+
+.profile.medium-image .profile--photo {
+  width: 226px;
+  height: 226px;
+}
+
+.profile.large-image .profile--photo {
+  width: 312px;
+  height: 312px;
+}
+
+.profile--photo.radius {
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.profile--photo.no-radius {
+  border-radius: 0;
+  overflow: hidden;
+}
+
+.profile--photo.no-radius img {
+  border-radius: 0;
+}
+
+.profile--photo.radius img {
+  border-radius: 0;
+}
+
+.visual--image.default-cover {
+  height: 290px;
+  max-width: 950px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.visual--image.small-cover {
+  height: 290px;
+  max-width: 640px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.visual--image.large-cover {
+  height: 350px;
+  max-width: 1050px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.profile--photo.no-shadow {
+  box-shadow: none;
+}
+
+.profile--photo.no-stroke {
+  border: none;
+}
+
+.profile--photo {
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.12);
+}

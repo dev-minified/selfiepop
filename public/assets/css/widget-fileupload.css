@@ -1,0 +1,9 @@
+.widget-fileupload {
+    margin: 0 0 15px;
+}
+  
+.widget-fileupload.sm {
+    max-width: 526px;
+    margin-left: auto;
+    margin-right: auto;
+}

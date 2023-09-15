@@ -1,0 +1,138 @@
+.fileupload-toolbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.fileupload-toolbar .status {
+  font-weight: 500;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-width: 0;
+}
+
+.fileupload-toolbar .status a {
+  flex-grow: 1;
+  flex-basis: 0;
+  min-width: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  padding: 0 10px 0 0;
+}
+
+.fileupload-toolbar .status .icon-tick {
+  width: 22px;
+  height: 22px;
+  font-size: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border-radius: 100%;
+  margin: 0 15px 0 0;
+  padding: 0 0 0 1px;
+}
+
+.fileupload-toolbar .status .icon-tick:before {
+  color: #fff;
+}
+
+.fileupload-toolbar .status .icon-bars {
+  width: 17px;
+  height: 13px;
+  border-bottom: 1px solid #aeb7c4;
+  position: relative;
+  margin: 0 24px 0 10px;
+}
+
+.fileupload-toolbar .status .icon-bars:before,
+.fileupload-toolbar .status .icon-bars:after {
+  width: 17px;
+  height: 1px;
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: #aeb7c4;
+}
+
+.fileupload-toolbar .status .icon-bars:after {
+  top: 50%;
+}
+
+.fileupload-toolbar .buttons {
+  margin-left: auto;
+}
+
+.fileupload-toolbar.gray-bar {
+  background-color: var(--pallete-background-gray-lighter);
+  padding: 10px 12px;
+  margin: 0 0 14px;
+}
+
+.fileupload-toolbar.white-bar {
+  background: var(--pallete-background-default);
+  padding: 10px 12px;
+  margin: 0 0 14px;
+}
+
+@media (max-width: 767px) {
+  .fileupload-toolbar .status {
+    font-size: 14px;
+    justify-content: center;
+  }
+
+  .fileupload-toolbar .status .icon-bars {
+    margin: 0 10px 0 0;
+  }
+
+  .fileupload-toolbar.gray-bar {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+  }
+
+  .fileupload-toolbar.gray-bar .status {
+    width: 100%;
+    margin: 0 0 15px;
+  }
+
+  .fileupload-toolbar.gray-bar .btn-round {
+    min-width: inherit;
+  }
+
+  .fileupload-toolbar.gray-bar .buttons {
+    margin-left: 0;
+    width: 100%;
+    text-align: center;
+  }
+
+  .fileupload-toolbar.white-bar {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+  }
+
+  .fileupload-toolbar.white-bar .status {
+    width: 100%;
+    margin: 0 0 15px;
+  }
+
+  .fileupload-toolbar.white-bar .buttons {
+    margin-left: 0;
+    width: 100%;
+    text-align: center;
+  }
+}
